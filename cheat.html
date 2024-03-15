@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cheat Sheet</title>
+    <link href="./CSS/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Main Section-->
+    <h1>Cheat Sheet</h1>
+    <h3>Position Rule | CSS</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Rule</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>position</td>
+            <td>This element will allow you to change the top, right, bottom and left postioning of selected element.</td>
+        </tr>
+        <tr>
+            <td>top: 20px</td>
+            <td>This will add 20px of space from the top. Moving the selected element down 20px</td>
+        </tr>
+        <tr>
+            <td>right: 20px</td>
+            <td>This will add 20px of space from the right. Moving the selected element left 20px</td>
+        </tr>
+        <tr>
+            <td>bottom: 20px</td>
+            <td>This will add 20px of space from the bottom. Moving the selected element up 20px</td>
+        </tr>
+        <tr>
+            <td>left: 20px</td>
+            <td>This will add 20px of space from the left. Moving the selected element right 20px</td>
+        </tr>
+    </tbody>
+</table>
+
+<!--Link State Section-->
+<section id="link-state">
+    <h3>Link States | CSS</h3>
+    <p>The ordering of link state pseudo-class rules is important to reveal the proper information. When a user hovers and then clicks a link, those styles should always override the static styling surrounding a user’s history with the link (unvisited :link and :visited). The proper order of these rules is:<br></p>
+    <ul>
+        <li><span>:linked</span></li>
+        <li><span>:visited</span></li>
+        <li><span>:hover</span></li>
+        <li><span>:active</span></li>
+    </ul>
+    <p>This ordering will ensure that the rules cascade properly and the user can receive the most applicable visual feedback about the state of the link.</p>
+</section>
+
+<section class="button-styling">
+    <h3>Button Styling | Skeuomorphic Styling</h3>
+    <p>Skeuomorphic button design aims to imitate the appearance and interactivity of a real-life button, often including a ‘raised’ appearance while the button is unpressed and a ‘pressed’ appearance when clicked.</p>
+    <p>If using CSS rules, the use of hover and/or active states is important in order to model interaction with a real button. For example, to implement a bare minimum 3-D button design, the following CSS ruleset could be used:</p>
+    <img src="./Resources/Skeuomorphic Styling.png">
+</section>
+</body>
+</html>
